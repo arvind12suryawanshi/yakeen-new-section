@@ -1,0 +1,351 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+  }
+  .About-page-intro {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+  }
+  .About-page-intro .About-page-left {
+    height: 100%;
+    max-width: 630px;
+  }
+  
+  .About-page-intro .About-page-left h1 {
+    font-size: 45px;
+    font-weight: 400;
+    text-align: start;
+  }
+  
+  .About-page-intro .About-page-left p {
+    line-height: 1.5;
+    margin-top: 15px;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    color: rgb(99, 98, 98);
+  }
+  .About-page-img {
+    width: 800px;
+    height: 300px;
+  }
+  
+  .About-page-left button {
+    margin: 25px 4px 0 4px;
+    padding: 15px 30px;
+    background-color: rgb(17, 84, 201);
+    border: none;
+    text-transform: uppercase;
+    color: white;
+  
+    font-weight: bold;
+  }
+  
+  .template {
+    width: 330px;
+    padding: 20px;
+    height: 100%;
+    box-shadow: 0px 0px 8px 0px rgb(167, 162, 162);
+  }
+  .template .tempp{
+    font-weight: bold;
+    text-transform: uppercase;
+  
+  }
+  .itm1 {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0;
+  }
+  .itm1 .detail {
+    width: 200px;
+  }
+  .itm1 .detail h3 {
+    font-weight: 400;
+  }
+  .itm1 .detail p {
+    margin-top: 3px;
+    color: rgb(83, 83, 83);
+  }
+  .template h4{
+    color: rgb(29, 95, 236);
+    margin-top: 50px;
+  }
+  @media screen and (max-width: 1400px) {
+    .About-page-img {
+      width: 700px;
+      height: 300px;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .About-page-img {
+      width: 600px;
+      height: 250px;
+    }
+    .About-page-intro .About-page-left h1 {
+      font-size: 45px;
+    }
+    .About-page-intro .About-page-left p {
+      font-size: 20px;
+    }
+    .About-page-left button {
+      margin: 25px 4px 0 4px;
+      padding: 15px 20px;
+    }
+  }
+  @media screen and (max-width: 963px) {
+    .About-page-intro {
+      flex-direction: column;
+      align-items: center;
+    }
+    .About-page-img-stack {
+      margin: 50px 0;
+    }
+    .About-page-intro .About-page-left {
+      text-align: center;
+    }
+    .About-page-intro .About-page-left h1 {
+      text-align: center;
+      font-size: 40px;
+    }
+    .About-page-intro .About-page-left p {
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 660px) {
+    .About-page-img {
+      width: 500px;
+      height: 220px;
+    }
+    .About-page-intro .About-page-left h1 {
+      font-size: 35px;
+    }
+    .About-page-intro .About-page-left p {
+      font-size: 17px;
+      margin-top: 15px;
+    }
+    .About-page-left button {
+      padding: 13px 18px;
+    }
+  }
+  @media screen and (max-width: 510px) {
+    .About-page-img {
+      width: 420px;
+      height: 200px;
+    }
+  }
+  @media screen and (max-width: 430px) {
+    .About-page-img {
+      width: 320px;
+      height: 150px;
+    }
+    .About-page-intro .About-page-left h1 {
+      font-size: 30px;
+    }
+    .About-page-intro .About-page-left p {
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 330px) {
+    .About-page-img {
+      width: 250px;
+      height: 120px;
+    }
+    .About-page-intro .About-page-left h1 {
+      font-size: 26px;
+    }
+    .About-page-intro .About-page-left p {
+      font-size: 14px;
+      margin-top: 4px;
+    }
+
+
+  }  */
+
+
+
+
+  
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+.About-page-intro {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100%;
+}
+.About-page-intro .About-page-left {
+  height: 100%;
+  max-width: 630px;
+}
+
+.About-page-intro .About-page-left h1 {
+  font-size: 45px;
+  font-weight: 400;
+  text-align: start;
+}
+
+.About-page-intro .About-page-left p {
+  line-height: 1.5;
+  margin-top: 15px;
+  font-size: 25px;
+  letter-spacing: 0.2px;
+  color: rgb(99, 98, 98);
+}
+.About-page-img {
+  width: 800px;
+  height: 300px;
+}
+
+.About-page-left button {
+  margin: 25px 4px 0 4px;
+  padding: 15px 30px;
+  background-color: rgb(17, 84, 201);
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+
+  font-weight: bold;
+}
+
+.template {
+  width: 330px;
+  padding: 20px;
+  height: 100%;
+  box-shadow: 0px 0px 8px 0px rgb(167, 162, 162);
+}
+.template .tempp{
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+.itm1 {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  color: black;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.itm1:hover i{
+  color: rgb(18, 99, 197)
+}
+ i{
+  font-size: 35px;
+}
+.itm1 .detail {
+  width: 200px;
+}
+.itm1 .detail h3 {
+  font-weight: 400;
+}
+.itm1 .detail p {
+  margin-top: 3px;
+  color: rgb(83, 83, 83);
+}
+.template h4{
+  cursor: pointer;
+  color: rgb(29, 95, 236);
+  margin-top: 50px;
+}
+@media screen and (max-width: 1400px) {
+  .About-page-img {
+    width: 700px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .About-page-img {
+    width: 600px;
+    height: 250px;
+  }
+  .About-page-intro .About-page-left h1 {
+    font-size: 45px;
+  }
+  .About-page-intro .About-page-left p {
+    font-size: 20px;
+  }
+  .About-page-left button {
+    margin: 25px 4px 0 4px;
+    padding: 15px 20px;
+  }
+}
+@media screen and (max-width: 963px) {
+  .About-page-intro {
+    flex-direction: column;
+    align-items: center;
+  }
+  .About-page-img-stack {
+    margin: 50px 0;
+  }
+  .About-page-intro .About-page-left {
+    text-align: center;
+  }
+  .About-page-intro .About-page-left h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .About-page-intro .About-page-left p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .About-page-img {
+    width: 500px;
+    height: 220px;
+  }
+  .About-page-intro .About-page-left h1 {
+    font-size: 35px;
+  }
+  .About-page-intro .About-page-left p {
+    font-size: 17px;
+    margin-top: 15px;
+  }
+  .About-page-left button {
+    padding: 13px 18px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .About-page-img {
+    width: 420px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .About-page-img {
+    width: 320px;
+    height: 150px;
+  }
+  .About-page-intro .About-page-left h1 {
+    font-size: 30px;
+  }
+  .About-page-intro .About-page-left p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .About-page-img {
+    width: 250px;
+    height: 120px;
+  }
+  .About-page-intro .About-page-left h1 {
+    font-size: 26px;
+  }
+  .About-page-intro .About-page-left p {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+} 
